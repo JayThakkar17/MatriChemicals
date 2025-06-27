@@ -1,0 +1,933 @@
+[
+  {
+    "id": 1,
+    "name": "Caustic Soda Lye",
+    "specifications": [
+      {
+        "characteristics": "Sodium Hydroxide (as NaOH)",
+        "specification": "%     47.00 min"
+      },
+      {
+        "characteristics": "Sodium Carbonate (as Na2CO3)",
+        "specification": "%     00.20 max"
+      },
+      {
+        "characteristics": "Chloride (as Cl -)",
+        "specification": "%     0.015 max"
+      },
+      {
+        "characteristics": "Iron (as Fe ++ + )",
+        "specification": "ppm   10.00 max"
+      }
+    ],
+    "caution": "Harmful to Animals & Plant tissues Corrosive",
+    "applications": [
+      "Pulp & Paper",
+      "Textiles",
+      "Soaps and Detergents",
+      "Petroleum Products",
+      "Aluminum Metal",
+      "Chemical Process",
+      "Bleach Manufacturing"
+    ],
+    "msds": "media/msds/MSDS-Caustic-Soda-Lye.pdf"
+  },
+  {
+    "id": 2,
+    "name": "Caustic Soda Flakes",
+    "specifications": [
+      {
+        "characteristics": "Sodium Hydroxide (as NaOH) Dry Basis",
+        "specification": "%     99.50 min"
+      },
+      {
+        "characteristics": "Sodium Carbonate (as Na2CO3)",
+        "specification": "%     00.40 max"
+      },
+      {
+        "characteristics": "Chloride (as Cl⁻)",
+        "specification": "%     00.03 max"
+      },
+      {
+        "characteristics": "Iron (as Fe++)",
+        "specification": "ppm   20.00 max"
+      }
+    ],
+    "caution": "Exothermic reaction with water, human tissues",
+    "applications": [
+      "Pulp & Paper",
+      "Textiles",
+      "Soaps and Detergents",
+      "Petroleum Products",
+      "Aluminum Metal",
+      "Chemical Process",
+      "Bleach Manufacturing"
+    ],
+    "msds": "media/msds/MSDS-Caustic-Soda-Flakes.pdf"
+  },
+  {
+    "id": 3,
+    "name": "Hydrochloric Acid (HCl)",
+    "specifications": [
+      {
+        "characteristics": "Hydrochloric Acid (as HCl)",
+        "specification": "%     30.00 min"
+      },
+      {
+        "characteristics": "+++ Iron (as Fe)",
+        "specification": "ppm   1.00 max"
+      },
+      {
+        "characteristics": "Free Chlorine & Bromine",
+        "specification": "%     0.0020 max"
+      }
+    ],
+    "caution": "Threshold limit 5 ppm in air as per ACGIH norms",
+    "applications": [
+      "Steel pickling and scale removal",
+      "Water treatment",
+      "Ore refining",
+      "Food processing",
+      "Manufacture of Chlorine Dioxide",
+      "Activation of Petroleum wells",
+      "Catalyst in Organic process",
+      "Removal of heavy metal from Carbon Black and Activated Carbon",
+      "Leaching Alumina from Crystalline Zeolites",
+      "Hydrolyzing agent"
+    ],
+    "msds": "media/msds/MSDS-Hydrochloric-Acid.pdf"
+  },
+  {
+    "id": 4,
+    "name": "Caustic Potash Lye (KOH)",
+    "specifications": [
+      {
+        "characteristics": "Potassium Hydroxide (as KOH)",
+        "specification": "%     47.00 min"
+      },
+      {
+        "characteristics": "Potassium Carbonate (as K2CO3)",
+        "specification": "%     00.50 max"
+      },
+      {
+        "characteristics": "Chloride (as KCl)",
+        "specification": "%     150.00 max"
+      },
+      {
+        "characteristics": "Iron (as Fe³⁺)",
+        "specification": "ppm   20.00 max"
+      }
+    ],
+    "caution": "Harmful to Animals & Plant Tissues; Corrosive",
+    "applications": [
+      "Potassium Carbonate",
+      "Dye Stuff industry",
+      "Rubber Chemicals",
+      "Potassium Permanganate",
+      "Acid Neutralization",
+      "Other Potassium based chemicals",
+      "Pharmaceutical industry"
+    ],
+    "msds": "media/msds/MSDS-Caustic-Potash-Lye.pdf"
+  },
+  {
+    "id": 5,
+    "name": "Caustic Potash Flakes",
+    "specifications": [
+      {
+        "characteristics": "Potassium Hydroxide (as KOH) Gr I",
+        "specification": "%     90.00 min"
+      },
+      {
+        "characteristics": "Potassium Hydroxide (as KOH) Gr II",
+        "specification": "%     87.00 min"
+      },
+      {
+        "characteristics": "Potassium Carbonate (as K2CO3)",
+        "specification": "%     1.00 max"
+      },
+      {
+        "characteristics": "Chloride (as KCl)",
+        "specification": "ppm   300.00 max"
+      },
+      {
+        "characteristics": "Iron (as Fe³⁺)",
+        "specification": "ppm   20.00 max"
+      }
+    ],
+    "caution": "Harmful to Animals & Plant Tissues; Corrosive",
+    "applications": [
+      "Potassium Carbonate manufacturing",
+      "Dye Stuff industry",
+      "Rubber Chemicals",
+      "Potassium Permanganate manufacture",
+      "Acid Neutralization",
+      "Other Potassium based chemicals",
+      "Pharmaceutical industry",
+      "Petroleum Refining",
+      "Fertilizer Ind",
+      "Cosmetic Ind"
+    ],
+    "msds": "media/msds/MSDS-Caustic-Potash-Flakes.pdf"
+  },
+  {
+    "id": 6,
+    "name": "Potassium Carbonate Powder",
+    "specifications": [
+      {
+        "characteristics": "Total Alkalinity (as K2CO3) on dry basis",
+        "specification": "%     99.00 min"
+      },
+      {
+        "characteristics": "Free Alkali as KOH",
+        "specification": "%     00.20 max"
+      },
+      {
+        "characteristics": "Bi Carbonate (as KHCO3)",
+        "specification": "%     00.40 max"
+      },
+      {
+        "characteristics": "Chloride (as KCl)",
+        "specification": "ppm   150.00 max"
+      },
+      {
+        "characteristics": "Iron (as Fe³⁺)",
+        "specification": "ppm   10.00 max"
+      }
+    ],
+    "caution": "Decomposes when heated, emitting toxic fumes",
+    "applications": [
+      "GLS lamps and Ophthalmic glasses",
+      "Fertilizer industry",
+      "Rubber Chemicals",
+      "Pesticide Industry",
+      "Dyes industries and other Potassium based chemicals",
+      "Pharmaceutical Industry",
+      "Agricultural Ind.",
+      "Glass Industries"
+    ],
+    "msds": "media/msds/MSDS-Potassium-Carbonate.pdf"
+  },
+  {
+    "id": 7,
+    "name": "Potassium Carbonate Granules",
+    "specifications": [
+      {
+        "characteristics": "Total Alkalinity (as K2CO3) on dry basis",
+        "specification": "%     99.00 min"
+      },
+      {
+        "characteristics": "Free Alkali as KOH",
+        "specification": "%     00.20 max"
+      },
+      {
+        "characteristics": "Bi Carbonate (as KHCO3)",
+        "specification": "%     00.40 max"
+      },
+      {
+        "characteristics": "Chloride (as KCl)",
+        "specification": "ppm   150.00 max"
+      },
+      {
+        "characteristics": "Iron (as Fe³⁺)",
+        "specification": "ppm   10.00 max"
+      }
+    ],
+    "caution": "Decomposes when heated, emitting toxic fumes",
+    "applications": [
+      "GLS lamps and Ophthalmic glasses",
+      "Fertilizer industry",
+      "Rubber Chemicals",
+      "Pesticide Industry",
+      "Dyes industries and other Potassium based chemicals",
+      "Pharmaceutical Industry",
+      "Agricultural Ind.",
+      "Glass Industries"
+    ],
+    "msds": "media/msds/MSDS-Potassium-Carbonate.pdf"
+  },
+  {
+    "id": 8,
+    "name": "Poly Aluminium Chloride",
+    "specifications": [],
+    "caution": "",
+    "applications": [],
+    "msds": "media/msds/MSDS-Poly-Aluminium-Chloride.pdf"
+  },
+  {
+    "id": 9,
+    "name": "Stable Bleaching Powder",
+    "specifications": [
+      {
+        "characteristics": "Available Chlorine (as Cl)",
+        "specification": "34.0 % min."
+      },
+      {
+        "characteristics": "Moisture",
+        "specification": "0.3 % max."
+      },
+      {
+        "characteristics": "Stability",
+        "specification": "1/15 max."
+      }
+    ],
+    "caution": "Store in a cool, dry and well ventilated place. Use personal protective equipments during application.",
+    "applications": [
+      "Bleaching agent in Paper, Textile industry, Hand Looms, Power looms & Soaps industry",
+      "Household Bleaching/cleaning applications",
+      "Waste Water treatment and Sewage disposal",
+      "Oxidizing agent",
+      "Disinfecting agent",
+      "Food Processing, beverage and sugar industry"
+    ],
+    "msds": "media/msds/MSDS-Stable-Bleaching-Powder.pdf"
+  },
+  {
+    "id": 10,
+    "name": "Sodium Hypochlorite",
+    "specifications": [
+      {
+        "characteristics": "Sp. Gravity (15°C/4°C)",
+        "specification": "-"
+      },
+      {
+        "characteristics": "Available Chlorine",
+        "specification": "gpl   40 to 200"
+      },
+      {
+        "characteristics": "NaOH",
+        "specification": "gpl   >5.0"
+      }
+    ],
+    "caution": "",
+    "applications": [
+      "Bleaching agent for rayon pulp and paper, cotton, linen and jute",
+      "Disinfectant in dairies and creameries",
+      "Water treatment (Chlorination)",
+      "Pool Chlorination",
+      "Household bleach",
+      "Germicide",
+      "Fungicide",
+      "Hydrolyzing agent"
+    ],
+    "msds": "media/msds/MSDS-Sodium-Hypochlorite.pdf"
+  },
+  {
+    "id": 11,
+    "name": "Aluminium Chloride (Powder)",
+    "specifications": [],
+    "caution": "",
+    "applications": [],
+    "msds": "media/msds/MSDS-ANHYDROUS-ALUMINIUM-CHLORIDE.pdf"
+  },
+   {
+    "id": 12,
+    "name": "Aluminium Chloride (Granules)",
+    "specifications": [],
+    "caution": "",
+    "applications": [],
+    "msds": "media/msds/MSDS-ANHYDROUS-ALUMINIUM-CHLORIDE.pdf"
+  },
+  {
+    "id": 13,
+    "name": "Benzyl Chloride",
+    "specifications": [
+      {
+        "characteristics": "Appearance",
+        "specification": "Colourless Clear Liquid"
+      },
+      {
+        "characteristics": "Odour",
+        "specification": "Sharp Pungent"
+      },
+      {
+        "characteristics": "Assay by GLC",
+        "specification": "99.5 % (min)"
+      },
+      {
+        "characteristics": "Low Boiling Impurities",
+        "specification": "0.3 % (max)"
+      },
+      {
+        "characteristics": "High Boiling Impurities",
+        "specification": "0.3 % (max)"
+      },
+      {
+        "characteristics": "Sp. Gr. At 27 °C",
+        "specification": "1.094–1.095"
+      }
+    ],
+    "caution": "",
+    "applications": [
+      "Dyes intermediates",
+      "Benzyl Compounds",
+      "Perfumery",
+      "Pharmaceuticals",
+      "Gasoline Gum Inhibitors",
+      "Quaternary Ammonium Compounds",
+      "Personal Care & Cosmetic Products"
+    ],
+    "msds": "media/msds/MSDS-BENZYL-CHLORIDE.pdf"
+  },
+  {
+    "id": 14,
+    "name": "Benzyl Alcohol",
+    "specifications": [
+      {
+        "characteristics": "Appearance",
+        "specification": "Clear Liquid"
+      },
+      {
+        "characteristics": "Assay by GC",
+        "specification": "99.5 % (min)"
+      },
+      {
+        "characteristics": "Colour by Lovibond",
+        "specification": "20 APHA"
+      },
+      {
+        "characteristics": "Benzadehyde Content",
+        "specification": "0.1 % (max)"
+      },
+      {
+        "characteristics": "Dibenzyl ether content",
+        "specification": "0.1 % (max)"
+      },
+      {
+        "characteristics": "Water content",
+        "specification": "0.1 % (max)"
+      },
+      {
+        "characteristics": "Sp. Gr. At 25 °C",
+        "specification": "1.042–1.046"
+      },
+      {
+        "characteristics": "Refractive Index at 20 °C",
+        "specification": "1.5380–1.5410"
+      }
+    ],
+    "caution": "",
+    "applications": [
+      "As a general solvent for inks, paints lacquers and epoxy resin coatings",
+      "As a precursor to a variety of esters used in soap, perfume and flavour industries",
+      "As a medication solution as preservative",
+      "Photography industries",
+      "Construction Chemicals"
+    ],
+    "msds": "media/msds/MSDS-BENZYL-ALCOHOL.pdf"
+  },
+  {
+    "id": 15,
+    "name": "Benzaldehyde",
+    "specifications": [
+      {
+        "characteristics": "Appearance",
+        "specification": "Clear Liquid (Colourless)"
+      },
+      {
+        "characteristics": "Odour",
+        "specification": "Bitter Almond"
+      },
+      {
+        "characteristics": "Assay by GC",
+        "specification": "99.5 % (min)"
+      },
+      {
+        "characteristics": "Colour by Lovibond",
+        "specification": "50 APHA"
+      },
+      {
+        "characteristics": "Low Boiling Impurities",
+        "specification": "0.1 % (max)"
+      },
+      {
+        "characteristics": "High Boiling impurities",
+        "specification": "0.4 % (max)"
+      },
+      {
+        "characteristics": "Sp. Gr. At 27 °C",
+        "specification": "1.040-1.045"
+      },
+      {
+        "characteristics": "Acidity as Benzoic acid (Chemical titration)",
+        "specification": "0.5% (max)"
+      }
+    ],
+    "caution": "",
+    "applications": [
+      "Chemical intermediates for dyes, Flavouring Materials, Perfumes and Aromatic Alcohol",
+      "Solvent for Oils, Resins, Some Cellulose ethers, Cellulose Acetate and Nitrate",
+      "Flavouring Compounds in Synthetic Perfumes",
+      "Manufacturing of Cinnamic Acid, Benzoic Acid, Pharmaceuticals, Photographic Chemicals",
+      "Agrochemicals"
+    ],
+    "msds": "media/msds/MSDS-BENZALDEHYDE.pdf"
+  },
+  {
+    "id": 16,
+    "name": "Methylene Chloride",
+    "specifications": [
+      {
+        "characteristics": "Colour",
+        "specification": "APHA   10.00 max"
+      },
+      {
+        "characteristics": "Sp. Gravity (15°C/4°C)",
+        "specification": "      1.332/1.340"
+      },
+      {
+        "characteristics": "Purity",
+        "specification": "%     99.90 min"
+      },
+      {
+        "characteristics": "Methyl Chloride",
+        "specification": "ppm   20.00 max"
+      },
+      {
+        "characteristics": "Chloroform",
+        "specification": "ppm   40.00 max"
+      },
+      {
+        "characteristics": "Carbon Tetrachloride",
+        "specification": "ppm   10.00 max"
+      },
+      {
+        "characteristics": "Trans 1-2 Dichloroethylene",
+        "specification": "ppm   80.00 max"
+      },
+      {
+        "characteristics": "Moisture",
+        "specification": "ppm   200.00 max"
+      },
+      {
+        "characteristics": "Free Chlorine",
+        "specification": "ppm   1.00 max"
+      },
+      {
+        "characteristics": "Acidity as HCL",
+        "specification": "ppm   1.00 max"
+      }
+    ],
+    "caution": "Threshold limit 50 ppm as per ACGIH norms",
+    "applications": [
+      "Manufacturing of Polycarbonates, Phenolics, Rayon yarn",
+      "Solvent for Cellulose Acetates, Photo-resist, Tablet film coatings",
+      "Paint & Grease removing agent",
+      "Fire fighting agent",
+      "Extractant for Edible fats, Cocoa, Butter and Essences",
+      "Adhesives for Polymethyl Methacrylate",
+      "Aerosol Propellant, Refrigerant",
+      "Chemical reaction media",
+      "Low temperature heat transfer medium",
+      "Pharmaceutical Industry - API/Bulk Drugs"
+    ],
+    "msds": "media/msds/MSDS-Methylene-Chloride.pdf"
+  },
+  {
+    "id": 17,
+    "name": "Chloroform",
+    "specifications": [
+      {
+        "characteristics": "Colour",
+        "specification": "APHA     10.00 max"
+      },
+      {
+        "characteristics": "Sp. Gravity (15˚C/4˚C)",
+        "specification": "      1.498/1.502"
+      },
+      {
+        "characteristics": "Purity",
+        "specification": "%     99.90min"
+      },
+      {
+        "characteristics": "Methylene Chloride",
+        "specification": "ppm   40.00 max"
+      },
+      {
+        "characteristics": "Carbon Tetrachloride",
+        "specification": "ppm   40.00 max"
+      },
+      {
+        "characteristics": "1.1 Dichloroethane",
+        "specification": "ppm   80.00 max"
+      },
+      {
+        "characteristics": "CIS 1-2 Dichloroethene",
+        "specification": "ppm   130.00 max"
+      },
+      {
+        "characteristics": "Moisture",
+        "specification": "ppm   100.00 max"
+      },
+      {
+        "characteristics": "Free Chlorine",
+        "specification": "ppm   1.00 max"
+      },
+      {
+        "characteristics": "Acidity as HCL",
+        "specification": "ppm   1.00 max"
+      }
+    ],
+    "caution": "Threshold limit 10 ppm as per ACGIH norms",
+    "applications": [
+      "Fluorocarbon Refrigerants and Resins",
+      "Fire fighting Agent",
+      "Solvent in Dye and Perfume manufacturing",
+      "Extract ant for Penicillin, Essential Oils, and Alkaloids, Nicotine, etc.",
+      "Soil Fumigants, Mildew Preventives",
+      "Pharmaceutical preparations"
+    ],
+    "msds": "media/msds/MSDS-Chloroform.pdf"
+  },
+  {
+    "id": 18,
+    "name": "Liquid Chlorine",
+    "specifications": [
+      {
+        "characteristics": "Chlorine Content",
+        "specification": "%v/v     99.80 min"
+      },
+      {
+        "characteristics": "Moisture",
+        "specification": "%w/w     0.01 max"
+      }
+    ],
+    "caution": "Threshold limit 1 ppm in air as per ACGIH norms",
+    "applications": [
+      "PVC (Poly Vinyl Chloride)",
+      "Chlorinated Hydrocarbons",
+      "Chlorinated Paraffin (CP)",
+      "Water Purification",
+      "Bleaching Agent",
+      "Waste & Sewage treatment",
+      "Disinfecting Agent",
+      "Sanitizing agent",
+      "Synthetic Rubber"
+    ],
+    "msds": "media/msds/MSDS-Liquide-Chlorine.pdf"
+  },
+  {
+    "id": 19,
+    "name": "Hydrogen Peroxide 35%",
+    "specifications": [
+      {
+        "characteristics": "Stability",
+        "specification": "ml. of O /25 ml at 2 100°C for 30 mins 0.30 max"
+      },
+      {
+        "characteristics": "Acidity (as H2SO4)",
+        "specification": "g/100 m 0.03 max"
+      },
+      {
+        "characteristics": "Iron (as Fe)",
+        "specification": "ppm 1.00 max"
+      },
+      {
+        "characteristics": "Copper (as Cu)",
+        "specification": "ppm 0.10 max"
+      },
+      {
+        "characteristics": "Arsenic (as As)",
+        "specification": "ppm 2.00 max"
+      },
+      {
+        "characteristics": "Lead (as Pb)",
+        "specification": "ppm 10.0 max"
+      }
+    ],
+    "caution": "For 2 to 6 : COA (Certificate of Analysis) as & when required by Customer",
+    "applications": [
+      "As aBleaching agentforPulp,Paper,Textiles, Sugar, Coir & Tobacco Industries",
+      "Antiseptic agent in Pharmaceuticals",
+      "Sterilizing agent in Aseptic packing",
+      "As raw material for Organic and Inorganic chemicals, Dyestuffs and Pesticides",
+      "Effluent treatment",
+      "Propellant for Rockets & Aircrafts",
+      "Oxidizing agent for Silver ornaments",
+      "Neutralizing agent in wine distillation",
+      "Chemical reagent for extraction of different metals: Cobalt, Uranium, Tungsten, etc.",
+      "As an etching & cleaning agent in Electronic industry and Process equipments"
+    ],
+    "msds": "media/msds/MSDS-Hydrogen-Peroxide.pdf"
+  },
+  {
+    "id": 20,
+    "name": "Hydrogen Peroxide 50%",
+    "specifications": [
+      {
+        "characteristics": "Stability",
+        "specification": "ml. of O /25 ml at 2 100°C for 30 mins 0.30 max"
+      },
+      {
+        "characteristics": "Acidity (as H2SO4)",
+        "specification": "g/100 m 0.03 max"
+      },
+      {
+        "characteristics": "Iron (as Fe)",
+        "specification": "ppm 1.00 max"
+      },
+      {
+        "characteristics": "Copper (as Cu)",
+        "specification": "ppm 0.10 max"
+      },
+      {
+        "characteristics": "Arsenic (as As)",
+        "specification": "ppm 2.00 max"
+      },
+      {
+        "characteristics": "Lead (as Pb)",
+        "specification": "ppm 10.0 max"
+      }
+    ],
+    "caution": "For 2 to 6 : COA (Certificate of Analysis) as & when required by Customer",
+    "applications": [
+      "As aBleaching agentforPulp,Paper,Textiles, Sugar, Coir & Tobacco Industries",
+      "Antiseptic agent in Pharmaceuticals",
+      "Sterilizing agent in Aseptic packing",
+      "As raw material for Organic and Inorganic chemicals, Dyestuffs and Pesticides",
+      "Effluent treatment",
+      "Propellant for Rockets & Aircrafts",
+      "Oxidizing agent for Silver ornaments",
+      "Neutralizing agent in wine distillation",
+      "Chemical reagent for extraction of different metals: Cobalt, Uranium, Tungsten, etc.",
+      "As an etching & cleaning agent in Electronic industry and Process equipments"
+    ],
+    "msds": "media/msds/MSDS-Hydrogen-Peroxide.pdf"
+  },
+  {
+    "id": 21,
+    "name": "Hydrogen Peroxide 60%",
+    "specifications": [
+      {
+        "characteristics": "Stability",
+        "specification": "ml. of O /25 ml at 2 100°C for 30 mins 0.30 max"
+      },
+      {
+        "characteristics": "Acidity (as H2SO4)",
+        "specification": "g/100 m 0.007 max"
+      },
+      {
+        "characteristics": "Iron (as Fe)",
+        "specification": "ppm 1.00 max"
+      },
+      {
+        "characteristics": "Copper (as Cu)",
+        "specification": "ppm 0.10 max"
+      },
+      {
+        "characteristics": "Arsenic (as As)",
+        "specification": "ppm 2.00 max"
+      },
+      {
+        "characteristics": "Lead (as Pb)",
+        "specification": "ppm 10.0 max"
+      }
+    ],
+    "caution": "For 2 to 6 : COA (Certificate of Analysis) as & when required by Customer",
+    "applications": [
+      "As aBleaching agentforPulp,Paper,Textiles, Sugar, Coir & Tobacco Industries",
+      "Antiseptic agent in Pharmaceuticals",
+      "Sterilizing agent in Aseptic packing",
+      "As raw material for Organic and Inorganic chemicals, Dyestuffs and Pesticides",
+      "Effluent treatment",
+      "Propellant for Rockets & Aircrafts",
+      "Oxidizing agent for Silver ornaments",
+      "Neutralizing agent in wine distillation",
+      "Chemical reagent for extraction of different metals: Cobalt, Uranium, Tungsten, etc.",
+      "As an etching & cleaning agent in Electronic industry and Process equipments"
+    ],
+    "msds": "media/msds/MSDS-Hydrogen-Peroxide.pdf"
+  },
+  {
+    "id": 33,
+    "name": "Hydrazine Hydrate",
+    "specifications": [
+      {
+        "characteristics": "Purity",
+        "specification": "80% W/W Min"
+      },
+      {
+        "characteristics": "Balance Water",
+        "specification": ""
+      },
+      {
+        "characteristics": "Appearance",
+        "specification": "Clear Colourless Liquid"
+      },
+      {
+        "characteristics": "Density",
+        "specification": "1.02 To 1.07"
+      },
+      {
+        "characteristics": "Active Content",
+        "specification": "Minimum 80% As Hydrazine Hydrate"
+      },
+      {
+        "characteristics": "Metals",
+        "specification": "< 10 ppm"
+      },
+      {
+        "characteristics": "Ammonia",
+        "specification": "< 50 Ppm"
+      },
+      {
+        "characteristics": "Ph",
+        "specification": "> 10 As Supplied"
+      }
+    ],
+    "caution": "Store in a cool, dry and well-ventilated place. Use personal protective equipment during the application.",
+    "applications": [
+      "Pesticides Industries",
+      "Agrochemicals",
+      "Water Treatment",
+      "Pharmaceutical Industry",
+      "Lubricant Additives",
+      "Recovery of Precious Metals",
+      "Flame-retardants",
+      "Synthesis of Active Ingredients",
+      "Fine Chemicals",
+      "Anti-corrosion Processes",
+      "Metal Treatments",
+      "Polymers and Composites",
+      "Fibres and Foam Compounds"
+    ],
+    "msds": "media/msds/MSDS-Hydrazine-Hydrate.pdf"
+  },
+  {
+    "id": 42,
+    "name": "Phosphoric Acid Technical Grade",
+    "specifications": [
+      {
+        "characteristics": "H3PO4 concentration",
+        "specification": "%     85 min"
+      },
+      {
+        "characteristics": "P2O5",
+        "specification": "%     62.30"
+      },
+      {
+        "characteristics": "Iron as Fe",
+        "specification": "ppm   10.00 max"
+      },
+      {
+        "characteristics": "Sulphate as SO4",
+        "specification": "ppm   300.00 max"
+      },
+      {
+        "characteristics": "Chloride as Cl-",
+        "specification": "ppm   15.00 max"
+      },
+      {
+        "characteristics": "Flouride as F",
+        "specification": "ppm   100.00 max"
+      },
+      {
+        "characteristics": "Ca and Mg",
+        "specification": "ppm   50.00 max"
+      },
+      {
+        "characteristics": "Heavy Metals as Pb (Lead)",
+        "specification": "ppm   10.00 max"
+      },
+      {
+        "characteristics": "Arsenic as As",
+        "specification": "ppm   1.00 max"
+      },
+      {
+        "characteristics": "Colour",
+        "specification": "Water  White"
+      }
+    ],
+    "caution": "Toxic by ingestion and inhalation",
+    "applications": [
+      "Pre-metal treatment chemicals",
+      "Sugar refining",
+      "Anodizing",
+      "Stabilizing agent (Hydrogen Peroxide)",
+      "Waster water treatment chemicals",
+      "Activated Carbon",
+      "Soaps and detergents",
+      "Tea-leaf processing"
+    ],
+    "msds": "media/msds/MSDS-Phosphoric-Acid-Technical-Grade.pdf"
+  },
+  {
+    "id": 43,
+    "name": "Phosphoric Acid Food Grade",
+    "specifications": [
+      {
+        "characteristics": "Phosphoric Acid as H3PO4",
+        "specification": "%     85 min"
+      },
+      {
+        "characteristics": "Iron as Fe+3",
+        "specification": "ppm   5.0 max"
+      },
+      {
+        "characteristics": "Calcium as Ca",
+        "specification": "ppm   20.00 max"
+      },
+      {
+        "characteristics": "Chloride as Cl-",
+        "specification": "ppm   200.00 max"
+      },
+      {
+        "characteristics": "Flouride as F",
+        "specification": "ppm   10.00 max"
+      },
+      {
+        "characteristics": "Sulphate as SO4",
+        "specification": "%    0.15 max"
+      },
+      {
+        "characteristics": "Heavy Metals as Pb (Lead)",
+        "specification": "ppm   4.00 max"
+      },
+      {
+        "characteristics": "Arsenic as As",
+        "specification": "ppm   2.00 max"
+      },
+      {
+        "characteristics": "Total Mercury (as Hg)",
+        "specification": "ppm   1.00 max"
+      },
+      {
+        "characteristics": "Aluminium (as Al)",
+        "specification": "ppm   10.000 max"
+      },
+      {
+        "characteristics": "Copper (as Cu)",
+        "specification": "ppm   30.0 max"
+      },
+      {
+        "characteristics": "Nitrates (as NO3)",
+        "specification": "ppm   5.000 max"
+      },
+      {
+        "characteristics": "MOLYBDENUM (as Mo)",
+        "specification": "ppm   10.000 max"
+      },
+      {
+        "characteristics": "TIN (as Sn)",
+        "specification": "ppm   250.000 max"
+      },
+      {
+        "characteristics": "VOLATILE ACID",
+        "specification": "ppm   10.000 max"
+      },
+      {
+        "characteristics": "CADMIUM (as Cd)",
+        "specification": "ppm   1.500 max"
+      }
+    ],
+    "caution": "",
+    "applications": [
+      "Sugar refining",
+      "Edible oil refining",
+      "Beverages",
+      "Food grade phosphates",
+      "PH control in food industry"
+    ],
+    "msds": ""
+  }
+]
