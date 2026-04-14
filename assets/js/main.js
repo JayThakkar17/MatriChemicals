@@ -5,13 +5,38 @@ $(function () {
     $("#preloader").delay(500).fadeOut(500);
   });
 
+  // Sticky navigation: use nav offset and keep page layout stable by adding body padding
+  var $navigation = $(".navigation");
+  var navOffset = $navigation.length ? $navigation.offset().top : 0;
+
+  function updateNavOffset() {
+    if ($navigation.length) {
+      // if currently sticky, temporarily remove class to read natural offset
+      var wasSticky = $navigation.hasClass("sticky");
+      if (wasSticky) $navigation.removeClass("sticky");
+      navOffset = $navigation.offset().top;
+      if (wasSticky) $navigation.addClass("sticky");
+    }
+  }
+
   $(window).on("scroll", function (event) {
     var scroll = $(window).scrollTop();
-    if (scroll < 200) {
-      $(".navigation").removeClass("sticky");
+    if (scroll <= navOffset) {
+      $navigation.removeClass("sticky");
+      $("body").css("padding-top", "0px");
     } else {
-      $(".navigation").addClass("sticky");
+      if (!$navigation.hasClass("sticky")) {
+        $navigation.addClass("sticky");
+        // keep layout from jumping when nav becomes fixed
+        $("body").css("padding-top", $navigation.outerHeight() + "px");
+      }
     }
+  });
+
+  // Recalculate nav offset on resize or orientation change
+  $(window).on("resize orientationchange", function () {
+    // small timeout to wait for reflow
+    setTimeout(updateNavOffset, 100);
   });
 
   var html_body = $("html, body");
@@ -576,6 +601,96 @@ $(function () {
       fill: {
         gradient: ["#ff5e14"],
       },
+    });
+  }
+  // Contact form: validate and open mail client with prefilled message (inline errors)
+  if ($("#contact-send").length) {
+    function clearContactErrors() {
+      $("#err-name,#err-phone,#err-email,#err-subject,#err-message").text("");
+      $("#contact-feedback").text("");
+      $("#contact-name,#contact-phone,#contact-email,#contact-subject,#message").removeClass("error");
+    }
+
+    $("#contact-send").on("click", async function (e) {
+      e.preventDefault();
+      clearContactErrors();
+
+      var name = $("#contact-name").val() ? $("#contact-name").val().trim() : "";
+      var phone = $("#contact-phone").val() ? $("#contact-phone").val().trim() : "";
+      var email = $("#contact-email").val() ? $("#contact-email").val().trim() : "";
+      var subject = $("#contact-subject").val() ? $("#contact-subject").val().trim() : "Website Inquiry";
+      var message = $("#message").val() ? $("#message").val().trim() : "";
+
+      var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      var phoneDigits = phone.replace(/\D/g, "");
+      var firstInvalid = null;
+
+      if (!name) {
+        $("#err-name").text("Please enter your name.");
+        $("#contact-name").addClass("error");
+        firstInvalid = $("#contact-name");
+      }
+      if (!phone || phoneDigits.length < 10) {
+        $("#err-phone").text("Please enter a valid phone number (at least 10 digits).");
+        $("#contact-phone").addClass("error");
+        if (!firstInvalid) firstInvalid = $("#contact-phone");
+      }
+      if (!email || !emailRegex.test(email)) {
+        $("#err-email").text("Please enter a valid email address.");
+        $("#contact-email").addClass("error");
+        if (!firstInvalid) firstInvalid = $("#contact-email");
+      }
+      if (!message || message.length < 3) {
+        $("#err-message").text("Please enter a message.");
+        $("#message").addClass("error");
+        if (!firstInvalid) firstInvalid = $("#message");
+      }
+
+      if (firstInvalid) {
+        firstInvalid.focus();
+        return;
+      }
+
+      var body = "Name: " + name + "\nPhone: " + phone + "\nEmail: " + email + "\n\nMessage:\n" + message;
+      var mailto = "mailto:sales.matrichemicals@gmail.com" +
+        "?subject=" + encodeURIComponent(subject) +
+        "&body=" + encodeURIComponent(body);
+
+      // If EmailJS attributes are present on the button and the SDK loaded, send via EmailJS
+      var $btn = $("#contact-send");
+      var ejUser = $btn.data("emailjs-user") || "";
+      var ejService = $btn.data("emailjs-service") || "";
+      var ejTemplate = $btn.data("emailjs-template") || "";
+
+      if (ejUser && ejService && ejTemplate && window.emailjs) {
+        try {
+          emailjs.init(ejUser);
+        } catch (e) {}
+        $("#contact-feedback").text("Sending message...");
+        var templateParams = {
+          from_name: name,
+          from_email: email,
+          phone: phone,
+          subject: subject,
+          message: message,
+        };
+        emailjs.send(ejService, ejTemplate, templateParams).then(
+          function (response) {
+            $("#contact-feedback").text("Message sent — thank you! We'll get back to you soon.");
+            $("#contact-name,#contact-phone,#contact-email,#contact-subject,#message").val("");
+            clearContactErrors();
+          },
+          function (error) {
+            $("#contact-feedback").text("Sending failed — opening your email client as fallback.");
+            window.location.href = mailto;
+          }
+        );
+        return;
+      }
+
+      // Fallback: open user's mail client with prefilled content
+      $("#contact-feedback").text("Opening your email client. Please send the message from there.");
+      window.location.href = mailto;
     });
   }
 

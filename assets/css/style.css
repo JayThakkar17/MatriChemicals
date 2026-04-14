@@ -3998,6 +3998,69 @@ p {
   }
 }
 
+/* ===========================
+   Footer contact - phone styles
+   =========================== */
+.contact-phones{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  justify-content:center;
+  align-items:center;
+  margin-top:12px;
+}
+.contact-phones .phone-item{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  background:rgba(255,255,255,0.04);
+  padding:10px 14px;
+  border-radius:10px;
+  color:#fff;
+  text-decoration:none;
+  min-width:150px;
+  transition:all .18s ease;
+}
+.contact-phones .phone-item i{font-size:18px;color:#008080}
+.contact-phones .phone-meta{display:flex;flex-direction:column;line-height:1}
+.contact-phones .phone-label{font-size:12px;opacity:.9}
+.contact-phones .phone-number{font-weight:700;font-size:15px}
+.contact-phones .phone-item:hover{transform:translateY(-4px);background:rgba(255,255,255,0.08)}
+
+@media (min-width:768px){
+  .contact-phones .phone-item{min-width:220px;padding:12px 18px}
+  .contact-phones .phone-label{font-size:13px}
+  .contact-phones .phone-number{font-size:16px}
+}
+
+@media (max-width:480px){
+  .contact-phones{gap:8px}
+  .contact-phones .phone-item{min-width:calc(50% - 8px);padding:10px;font-size:14px}
+  .contact-phones .phone-meta{align-items:flex-start}
+}
+
+/* Responsive logo utilities */
+.navbar-brand img{height:auto;max-height:70px;width:auto;display:block}
+.max-w-200{max-width:200px!important}
+.max-w-139{max-width:139px!important}
+
+@media (max-width:991px){
+  .navbar-brand img{max-height:56px}
+  .max-w-200{max-width:160px!important}
+  .max-w-139{max-width:120px!important}
+}
+
+@media (max-width:575px){
+  .navbar-brand img{max-height:44px}
+  .max-w-200{max-width:130px!important}
+  .max-w-139{max-width:110px!important}
+}
+
+/* Contact form error / feedback */
+.input-error{color:#ff6b6b;font-size:13px;margin-top:6px;min-height:16px}
+.contact-feedback{color:#28a745;font-size:14px;margin-top:8px;min-height:18px}
+.input-box input.error, .input-box textarea.error{border-color:#ff6b6b}
+
 @media (max-width: 767px) {
   .mission-vision-area-2 .mission-vision-thumb {
     margin-right: 0;
@@ -10758,6 +10821,9 @@ a {
 }
 .max-w-145 {
   max-width: 145px !important;
+}
+.max-w-200 {
+  max-width: 200px !important;
 }
 
 .custom-bullet-list {
